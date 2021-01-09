@@ -11,15 +11,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  rxdart: ^0.24.0
-  google_maps_webservice: ^0.0.16
-  http: ">=0.11.0 <1.0.0"
+  rxdart: ^0.25.0
+  google_maps_webservice: ^0.0.19
+  http: ">=0.12.0 <1.0.0"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
-  assets:
-    - packages/flutter_google_places/assets/google_black.png
-    - packages/flutter_google_places/assets/google_white.png
+  # assets:
+  #   - packages/flutter_google_places/assets/google_black.png
+  #   - packages/flutter_google_places/assets/google_white.png
