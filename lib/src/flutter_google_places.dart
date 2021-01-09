@@ -314,22 +314,22 @@ class _AppBarPlacesAutoCompleteTextFieldState
 }
 
 class PoweredByGoogleImage extends StatelessWidget {
-  final _poweredByGoogleWhite =
-      "packages/flutter_google_places/assets/google_white.png";
-  final _poweredByGoogleBlack =
-      "packages/flutter_google_places/assets/google_black.png";
+  // final _poweredByGoogleWhite =
+  //     "packages/flutter_google_places/assets/google_white.png";
+  // final _poweredByGoogleBlack =
+  //     "packages/flutter_google_places/assets/google_black.png";
 
   @override
   Widget build(BuildContext context) {
     return Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
-      Padding(
-          padding: EdgeInsets.all(16.0),
-          child: Image.asset(
-            Theme.of(context).brightness == Brightness.light
-                ? _poweredByGoogleWhite
-                : _poweredByGoogleBlack,
-            scale: 2.5,
-          ))
+      // Padding(
+      //     padding: EdgeInsets.all(16.0),
+      //     child: Image.asset(
+      //       Theme.of(context).brightness == Brightness.light
+      //           ? _poweredByGoogleWhite
+      //           : _poweredByGoogleBlack,
+      //       scale: 2.5,
+      //     ))
     ]);
   }
 }
